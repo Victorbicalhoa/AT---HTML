@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  
+}
+
+.container{ 
+    height: 60px;
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.7);
+    position: relative;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    list-style: none;
+}
+
+.gray{
+    background-color: #222222;
+    color:#fff
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    border-radius: 5px;    
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #85a087;
+    border-radius: 0; 
+    padding: 20px 20px; 
+    
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    height: 100vh;    
+}
+
+.avatar{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
+.perfil-text{
+    flex: 3;
+    display: flex;
+    justify-content: start;
+}
+.perfil-text h1{
+    font-size: 72px;
+    text-align: center;
+    font-weight: 300;
+}
+.perfil-text h3{
+    font-size: 52px;
+    text-align: center;
+    font-weight: 300;
+    color: #9c9c9c;
+}
+.avatar img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttons img{
+    height: 24px;
+    margin-right: 10px;
+}
+.buttons a{
+    text-decoration: none;
+}
+.buttons button{
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #fff;
+    border-radius: 5px;   
+    cursor: pointer;
+    margin: 10px; 
+    
+}
+
+.buttons button:hover{
+    background-color: #85a087;
+}
+
+#about {
+    padding: 50px;  
+}
+
+#about h1{
+    font-weight: 300;
+    text-align: center;
+    margin: 30px;
+    font-size: 48px;
+}
+.about-flex{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.about-box{
+    padding: 20px;
+    border: 1px solid #cecece;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 200px;
+}
+.about-box p{
+    margin-top: 5px;
+}
+.about-box:hover{
+    background-color: #85a087;
+}
+.about-box img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+}
+#about .p{
+    width: 800px;
+    margin: auto;
+    border-bottom: 1px solid #cecece;
+    text-align: justify;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+#skills{
+    padding: 50px;   
+}
+
+#skills h1{
+    font-weight: 300;
+    text-align: center;
+    font-size: 48px;  
+}
+.skills-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    margin: auto;  
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.skills-items{
+    width: 110px;
+    border: 1px solid #cecece;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 10px;
+    font-size: small; 
+    border-radius: 5px;   
+}
+.skills-items:hover{
+    background-color: #85a087;
+    cursor: pointer;
+}
+#projects{
+    background-color: #222222;
+    color: #fff;   
+    padding: 50px; 
+}
+#projects h1{
+    font-weight: 300;
+    text-align: center;    
+    font-size: 48px;
+    padding-bottom: 50px;
+}
+.projects-flex{
+    display: flex;
+    justify-content: center;
+}
+.project-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.project-img img{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.project-items{
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+}
+.project-items:hover{
+    background-color: #666666;
+}
+.project-items h4, h6{
+    text-align: center;
+    font-weight: 300;
+}
+.project-items p{
+    text-align: justify;
+    padding: 10px;
+}
+.footer-social-media{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+    height: 50px;
+
+}
+.footer-social-media img{
+    height: 30px;
+
+}
+footer p{
+    text-align: center;
+    font-size: x-small;
+    margin-bottom: 5px;
+}
